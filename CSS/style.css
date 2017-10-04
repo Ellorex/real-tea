@@ -1,3 +1,102 @@
+@font-face {
+  src: url("FONTS/Melbourne_regular_basic.otf") format "otf";
+  font-family: "melbourne"; }
+@font-face {
+  src: url("FONTS/GINKO.ttf") format "ttf";
+  font-family: "ginko"; }
+h2 {
+  font-family: "melbourne"; }
 
+html {
+  background-image: url("../IMG/bg_body.jpg"); }
+
+header ul {
+  text-align: right;
+  background-color: #669900;
+  color: white;
+  padding-right: 10px;
+  margin: 0px; }
+header li {
+  margin-left: 8px;
+  margin-right: 8px;
+  display: inline-block; }
+
+body {
+  background-image: url("../IMG/bg_header.jpg");
+  background-repeat: no-repeat;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px; }
+  body .logo {
+    display: block;
+    margin-top: 50px; }
+  body .deux_tasses, body h1 {
+    margin-top: 60px;
+    display: inline-block; }
+  body h1 {
+    margin-right: 20px; }
+  body .decouvrir_lien {
+    text-align: right;
+    padding-right: 110px;
+    color: #669900;
+    text-decoration: none;
+    display: block; }
+  body .art_pres {
+    text-align: center; }
+    body .art_pres article {
+      width: 33%;
+      display: inline-block;
+      text-align: left; }
+    body .art_pres h3 {
+      display: inline-block; }
+
+aside {
+  display: inline-block;
+  margin-top: 50px;
+  width: 59%;
+  background-image: url("../IMG/bg_news.jpg");
+  background-repeat: no-repeat;
+  padding-top: 75px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px; }
+  aside .date-events {
+    background-image: url("../IMG/bg_date.png");
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    height: 70px;
+    line-height: 70px;
+    width: 50px; }
+    aside .date-events article {
+      margin-bottom: 25px; }
+    aside .date-events h5, aside .date-events p {
+      margin: 2px; }
+    aside .date-events span {
+      display: block;
+      height: 15px;
+      padding-left: 10px; }
+  aside .content-events {
+    display: inline-block; }
+    aside .content-events a {
+      color: red;
+      text-decoration: none;
+      font-style: italic; }
+
+.section2_espaces {
+  vertical-align: top;
+  margin-top: 15px;
+  padding-left: 30px;
+  width: 40%; }
+  .section2_espaces .villes_left, .section2_espaces .villes_right {
+    display: inline-block;
+    width: 30%; }
+
+footer {
+  background-image: url("../IMG/bg_footer.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 1000px; }
 
 /*# sourceMappingURL=style.css.map */

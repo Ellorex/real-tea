@@ -5,93 +5,98 @@
 		<title>RealTea</title>
 		<link rel="stylesheet" type="text/CSS" href="CSS/style.css">
 	</head>
+	<body>
+		<header>
 		<nav>
-			<ol>
+			<ul>
 				<li>Accueil</li>
 				<li>Real Tea</li>
 				<li>Nos thés</li>
 				<li>Trouvez-nous</li>
 				<li>Nous contacter</li>
-			</ol>
+			</ul>
 		</nav>
-	<header>
-		
-
-	</header>
-	<body id="homepage">
-		<section id="haut">
+			
+		</header>
+	
+		<section class="haut">
  		
-
- 			<figure>
- 			</figure>
- 			<img src="IMG/tasse_the.jpg" alt="Deux tasses de  thé avec une feuille de menthe" />
- 			<h2>Des thés rares et exceptionnels...</h2>
- 			<h2>...récoltés au bout du monde</h2>
- 			<p>> Découvrir nos thés</p>
-
+			<img src="IMG/logo.png" alt="logo" class="logo"/>
+		</br>
+ 			<img src="IMG/tasse_the.jpg" alt="Deux tasses de  thé avec une feuille de menthe" class="deux_tasses" />
+ 			<h1>
+ 			<img src="IMG/h2.png" alt="Des thé rares et exceptionnels, récoltés au bout du monde" /></h1>
+ 			<p href="#" class="decouvrir_lien">> Découvrir nos thés</p>
+ 		<div clas="art_pres">
  			<article>
- 				<img src="IMG/icone1.jpg" alt="feuille de thé" />
+ 				<img src="IMG/icone1.jpg" alt="feuille de thé" class="icone"/>
  				<h3>75 variétés de thé</h3>
  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
  			</article>
 
  			<article>
- 				<img src="IMG/icone2.jpg" alt="lampion rouge" />
+ 				<img src="IMG/icone2.jpg" alt="lampion rouge" class="icone" />
  				<h3>Des thés de Chine</h3>
  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
  			</article>
 
  			<article>
- 				<img src="IMG/icone3.jpg" alt="3 pierres" />
+ 				<img src="IMG/icone3.jpg" alt="3 pierres" class="icone" />
  				<h3>Des conseils détente</h3>
  				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
  			</article>
-
+ 		</div>
 
 		</section>
 
-		<aside>
-			<h4>DERNIERES ACTUALITES</h4>
+		<aside class="section1_actus">
 
 			<article>
-				<img src="IMG/bg_date.png" alt="" />
+				<div class="date-events"><span>01</span><span>jan</span></div>
+				<div class="content-events">
 				<h5>Ouverture du nouveau Real Tea à Strasbourg</h5>
 				<p>Lassatis dedit segetum ulla restituit est tempore regeret viri indolis populo viri iam lassatis cuius.</p>
-				<p id="suite">Lire la suite</p>
+				<a href="#">Lire la suite</a>
+			</div>
 			</article>
 
 			<article>
-				<img src="IMG/bg_date.png" alt="" />
+				<div class="date-events"><span>30</span><span>dec</span></div>
+				<div class="content-events">
 				<h5>Ouverture du nouveau Real Tea à Strasbourg</h5>
 				<p>Lassatis dedit segetum ulla restituit est tempore regeret viri indolis populo viri iam lassatis cuius.</p>
-				<p id="suite">Lire la suite</p>
+				<a href="#">Lire la suite</a>
+			</div>
 			</article>
 
 			<article>
-				<img src="IMG/bg_date.png" alt="" />
+				<div class="date-events"><span>14</span><span>dec</span></div>
+				<div class="content-events">
 				<h5>Ouverture du nouveau Real Tea à Strasbourg</h5>
 				<p>Lassatis dedit segetum ulla restituit est tempore regeret viri indolis populo viri iam lassatis cuius.</p>
-				<p id="suite">Lire la suite</p>
+				<a href="#">Lire la suite</a>
+			</div>
 			</article>
 
 
 		</aside>
 
-		<section>
+		<section class="section2_espaces">
 			
 			<div>
 				<h3>Trouvez nos espaces thés</h3>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				<ul> <!--Liste ou paragraphes ? -->
-					<li>
-						<img src="IMG:puce_feuille.png" alt="Feuille de thé" />
-					Strasbourg
-				</li>
-					<li>Lyon</li>
-					<li>Marseille</li>
-					<li>Paris</li>
-					<li>Rennes</li>
-					<li>Bordeaux</li>
+				<ul> <!--Enlever les puces par défaut ? -->
+					<div class="villes_left">
+					<li><img src="IMG/puce_feuille.png" alt="Feuille de thé" /> Strasbourg</li>
+					<li><img src="IMG/puce_feuille.png" alt="Feuille de thé" /> Lyon</li>
+					<li><img src="IMG/puce_feuille.png" alt="Feuille de thé" /> Marseille</li>
+				</div>
+				<div class="villes_right">
+					<li><img src="IMG/puce_feuille.png" alt="Feuille de thé" /> Paris</li>
+					<li><img src="IMG/puce_feuille.png" alt="Feuille de thé" /> Rennes</li>
+					<li><img src="IMG/puce_feuille.png" alt="Feuille de thé" /> Bordeaux</li>
+				</div>
 				</ul>
 			</div>
 
@@ -109,10 +114,9 @@
 	</body>
 
 	<footer>
-		<img src="IMG/bg_footer.png" alt="feuilles de thé" />
-		<p>Retrouvez-nous aussi sur :</p>
+		<p>Retrouvez-nous aussi sur :
 		<a href="http://facebook.com/RealTea"><img src="IMG/fb.png" alt="Facebook" /></a>
-		<a href="http://twitter.com/RealTea"><img src="IMG/twitter.png" alt="Twitter" /></a>
+		<a href="http://twitter.com/RealTea"><img src="IMG/twitter.png" alt="Twitter" /></a></p>
 	</footer>
 
 </html>
