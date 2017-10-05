@@ -1,10 +1,12 @@
 @font-face {
-  src: url("FONTS/Melbourne_regular_basic.otf") format "otf";
-  font-family: "melbourne"; }
+  font-family: "melbourne";
+  src: url("../FONTS/Melbourne_regular_basic.otf") format "otf";
+  font-weight: normal;
+  font-style: normal; }
 @font-face {
-  src: url("FONTS/GINKO.ttf") format "ttf";
+  src: url("../FONTS/GINKO.ttf") format "ttf";
   font-family: "ginko"; }
-h2 {
+.container {
   font-family: "melbourne"; }
 
 html {

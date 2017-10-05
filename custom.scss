@@ -4,19 +4,20 @@ $secondary_color: #ff4000;
 
 
 @font-face {
-	src : url("FONTS/Melbourne_regular_basic.otf") format ("otf");
 	font-family: "melbourne";
+	src : url("../FONTS/Melbourne_regular_basic.otf") format ("otf");
+	font-weight: normal;
+	font-style: normal;
 	}
 
 @font-face {
-	src: url("FONTS/GINKO.ttf") format ("ttf");
+	src: url("../FONTS/GINKO.ttf") format ("ttf");
 	font-family: "ginko";
 }
 
-h2  {
-	font-family: "melbourne";
+.container {
+	font-family: "melbourne"
 }
-
 
 html {
 	background-image: url("../IMG/bg_body.jpg");
@@ -83,7 +84,6 @@ aside {
 	width: 59%;
 	background-image: url("../IMG/bg_news.jpg");
 	background-repeat: no-repeat;
-	
 	padding-top: 75px;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -125,6 +125,7 @@ a {
 	margin-top: 15px;
 	padding-left: 30px;
 	width: 40%;
+
 
 	.villes_left, .villes_right {
 		display: inline-block;
